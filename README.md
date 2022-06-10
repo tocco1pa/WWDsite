@@ -11,5 +11,7 @@ practices and implements numerous basic coding principles such as data structure
 TO RUN: 
 
 Download the files as a .ZIP package
+
 export and open the folder in your IDE of choice
+
 run the home.html in a local browser window
