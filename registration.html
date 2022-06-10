@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WorldWideDev Home Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="JS/registration.js"></script>
+</head>
+
+<body>
+    <main>
+        <img src="images\logo.png" alt="Company Logo" height="175" class="logo">
+        <h1>Customer Registration</h1>
+        <form action="confirmation.html" method="get" name="reservation_form" id="reservation_form">
+            <fieldset>
+                <legend>General Information</legend>
+                <label for="date">Date:</label>
+                <input type="text" name="date" id="date">
+                <span id='date_message'>*</span><br>
+                <br>
+                <label>Customer type:</label>
+                <input type="radio" name="customer" id="business" value="business" checked>Business
+                <input type="radio" name="customer" id="personal" value="personal">Personal
+                <input type="radio" name="customer" id="gov" value="gov">Government<br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname">
+                <span id='fname_message'>*</span><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname">
+                <span id='lname_message'>*</span><br>
+                <label for="email">Email Address:</label>
+                <input type="text" name="email" id="email">
+                <span id='email_message'>*</span><br>
+                <label for="confirm_email">Re-enter Email Address:</label>
+                <input type="text" name="confirm_email" id="confirm_email">
+                <span id='confirm_email_message'>*</span><br>
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone">
+                <span id='phone_message'>*</span><br>
+                <label for="state">2-Character State Code:</label>
+                <input type="text" name="state" id="state">
+                <span id='state_message'>*</span><br>
+                <label for="zip">Zip Code:</label>
+                <input type="text" name="zip" id="zip">
+                <span id='zip_message'>*</span><br>
+            </fieldset>
+
+            <input type="button" id="submit_request" value="Submit Reservation">
+            <input type="button" id="reset" value="Reset"><br>
+        </form>
+
+
+
+
+        <ul class="bottom">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="registration.html">Customer Registration</a></li>
+            <li><a href="calandar.html">Calandar</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="utility.html">Utility</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+
+    </main>
+</body>
+
+</html>

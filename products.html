@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WorldWideDev Home Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="JS\inv_page.js"></script>
+</head>
+<body>
+<main>
+    <img src="images\logo.png" alt="Company Logo" height="175" class="logo">
+    <h1>Inventory</h1>
+    <input type="button" onclick="sortName()" id="sort_name" value="Sort by Name" >
+    <input type="button" onclick="sortPrice()" id="sort_price" value="Sort by Price" >
+    
+    <table id="inv_table"></table>
+    <div class="container">
+        <img src="images/1.png" class="image" id="viewer">
+        <div class="overlay" id="hover_text">Razer Naga Mouse</div>
+      </div>
+	<input type="button" onclick="back()" id="back" value="Back" >
+    <input type="button" onclick="next()" id="next" value="Next" >
+    <br><br>
+    <p>Place an order for any of our products <a href="order.html">by clicking this link.</a></p>
+
+
+
+
+    <ul class="bottom">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="registration.html">Customer Registration</a></li>
+        <li><a href="calandar.html">Calandar</a></li>
+        <li><a class="active" href="products.html">Products</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="utility.html">Utility</a></li>
+        <li><a href="admin.html">Admin</a></li>
+    </ul>
+    
+</main>
+</body>
+</html>
